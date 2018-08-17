@@ -1,0 +1,150 @@
+<!--
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+ *
+ * Copyright 2018 Lasucodes and/or its affiliates. All rights reserved.
+ *
+ *  Contributor(s):
+ *  Azeez Lukman
+ *  Author :
+ *  Azeez Lukman
+ *  Date : August 15 2018
+-->
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Form Style 8</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<header>
+		<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li id="defaultTab" onclick="openGroup('help')"><a href="#">Help</a></li>
+</ul> 
+	</header>
+
+	<main>
+		<form class="form-style-8" id="form1">
+    
+        <label>Your Full Name <input id="name" type="text"></label>
+	    <label>Email Address <input id="email" type="email"></label>
+        <label>Phone Number <input id="phone" type="text"></label>
+       
+      
+     <div class="privacy-policy">
+     <input type="checkbox" name="field7" id="checkbox">You agree to our Terms and Policy. 
+     </div>
+     <input type="submit" name="Sign Up" onclick="validate()" id="submit">
+    </form>
+
+<div id="groupMenu"> 
+<h2>Groups</h2>
+
+<div class="tab">
+  <button id="tablink1" class="tablinks" onclick="openGroup('Group1')" id="defaultOpen">Group 1</button>
+  <button id="tablink2" class="tablinks" onclick="openGroup('Group2')">Group2</button>
+  <button id="tablink3" class="tablinks" onclick="openGroup('Group4')">Group3</button>
+  <button id="tablink3" class="tablinks" onclick="openGroup('Group4')">Group4</button>
+  <button id="tablink5" class="tablinks" onclick="openGroup('Group5')">Group 5</button>
+</div>
+
+
+<div id="help" class="tabcontent">
+  <h2>Welcome</h2>
+  <h4>Kindly enter Your details in the form to get a group</h4>
+</div>
+
+<div id="Group1" class="tabcontent">
+  <h3>Group 1</h3>
+  <table id="table1">
+<th>Name</th>
+<th>Phone No</th>
+<th>Email Address</th>
+<tr>
+    
+</tr>
+</table>
+</div>
+
+<div id="Group2" class="tabcontent">
+  <h3>Group 2</h3>
+ <table id="table2">
+<th>Name</th>
+<th>Phone No</th>
+<th>Email Address</th>
+<tr>
+    
+</tr>
+</table>
+</div>
+
+<div id="Group3" class="tabcontent">
+  <h3>Group 3</h3>
+  <table id="table3">
+<th>Name</th>
+<th>Phone No</th>
+<th>Email Address</th>
+<tr>
+    
+</tr>
+</table>
+</div>
+
+<div id="Group4" class="tabcontent">
+  <h3>Group 4</h3>
+  <table id="table4">
+<th>Name</th>
+<th>Phone No</th>
+<th>Email Address</th>
+<tr>
+    
+</tr>
+</table>
+</div>
+
+<div id="Group5" class="tabcontent">
+  <h3>Group 5</h3>
+ <table id="table5">
+<th>Name</th>
+<th>Phone No</th>
+<th>Email Address</th>
+<tr>
+    
+</tr>
+</table>
+</div>
+</div>
+	</main>
+
+	<footer>
+			<ul>
+				<li>
+					<a href="#">Terms and conditions</a>
+				</li>
+				<li>
+					<a href="#">Privacy</a>
+				</li>
+				<li>
+					<a href="#">Help</a>
+				</li>
+				<li>
+					<a href="#">Feedback</a>
+				</li>
+				<li class="fl">
+					<a href="#">© 2018 LasuCodes</a>
+				</li>
+				<li class="fl">
+					<a href="#">Powered By AstroMinds</a>
+				</li>
+	</footer>
+	<script type="text/javascript" src="script.js">
+
+
+</script>
+</body>
